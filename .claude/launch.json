@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "serve (Node)",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "npx serve . --listen 3000"],
+      "port": 3000
+    },
+    {
+      "name": "http.server (Python)",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8000"],
+      "port": 8000
+    }
+  ]
+}
